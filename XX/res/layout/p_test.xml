@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res/com.cookandroid.xx"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="112 :		"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/pp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/pp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friend : 		"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/fp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/fp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Record : 		"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/rp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/rp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/pfront"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#D5D5D5"
+            android:text="앞압력"
+            android:textColor="#002266"
+            androidhuman:typeface="fonts/JejuGothic.ttf" />
+
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/pback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#D5D5D5"
+            android:text="뒤압력"
+            android:textColor="#002266"
+            androidhuman:typeface="fonts/JejuGothic.ttf" />
+
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/pshake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#D5D5D5"
+            android:text="흔들기"
+            androidhuman:typeface="fonts/JejuGothic.ttf" 
+            android:textColor="#002266" />
+    </LinearLayout>
+
+</LinearLayout>

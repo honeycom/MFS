@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res/com.cookandroid.xx"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#bb22608c"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="환경설정"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/backhome"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_margin="20dp"
+            android:background="#aa01445e"
+            android:text="귀가시간 알림설정"
+            androidhuman:typeface="fonts/JejuGothic.ttf" />
+
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/using"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#aa01445e"
+            android:text="사용 설명"
+            android:textSize="15dp"
+            androidhuman:typeface="fonts/JejuGothic.ttf" />
+
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/inquiry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#aa01445e"
+            android:textSize="15dp"
+            android:text="문의"
+            androidhuman:typeface="fonts/JejuGothic.ttf" />
+    </LinearLayout>
+
+</LinearLayout>

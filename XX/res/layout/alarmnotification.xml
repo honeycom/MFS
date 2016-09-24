@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res/com.cookandroid.xx"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="25초안에 무사귀환 버튼을 누르세요"
+        android:textSize="20dp" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:format="%s"
+        android:gravity="center"
+        android:textSize="50dp" />
+
+    <com.cookandroid.xx.FontButton
+        android:id="@+id/alarmcancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="집에 무사귀환"
+        androidhuman:typeface="fonts/JejuGothic.ttf" />
+
+</LinearLayout>

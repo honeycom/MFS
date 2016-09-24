@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="motion">
+        <item>압력-앞</item>
+        <item>압력-뒤</item>
+    </string-array>
+
+    
+</resources>

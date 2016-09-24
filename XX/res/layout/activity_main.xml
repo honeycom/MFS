@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res/com.cookandroid.xx"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+ 
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/PTBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/pattern"
+            android:layout_weight="1"
+            android:background="#bb013742"
+            android:text="패턴설정"
+            android:textColor="#ffffff"
+            android:paddingLeft="50dp"
+            android:textSize="35dp"
+            androidhuman:typeface="fonts/JejuGothic.ttf"/> 
+
+
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/MSGBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#bb034561"
+            android:drawableLeft="@drawable/message"
+            android:text="문자관리"
+            android:paddingLeft="50dp"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            androidhuman:typeface="fonts/JejuGothic.ttf"
+/>
+ 
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/RECBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"        
+            android:background="#bb0b5071"
+            android:drawableLeft="@drawable/record"
+            android:text="녹음관리"
+            android:paddingLeft="50dp"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            androidhuman:typeface="fonts/JejuGothic.ttf"
+            />
+
+
+        <com.cookandroid.xx.FontButton
+            android:id="@+id/SETBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#bb20608a"
+            android:drawableLeft="@drawable/setting"
+            android:text="환경설정"
+            android:paddingLeft="50dp"
+            android:textColor="#ffffff"
+            android:textSize="30dp" 
+            androidhuman:typeface="fonts/JejuGothic.ttf"/>
+
+</LinearLayout>

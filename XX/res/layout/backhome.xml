@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res/com.cookandroid.xx"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/time_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12" >
+
+        <RadioButton
+            android:id="@+id/absolute_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시간설정1" />
+
+        <TimePicker
+            android:id="@+id/ab_timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner" />
+
+        <RadioButton
+            android:id="@+id/relative_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시간설정2" />
+
+        <TimePicker
+            android:id="@+id/re_timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner" />
+
+        <RadioButton
+            android:id="@+id/none_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="없음" />
+    </RadioGroup>
+
+    <com.cookandroid.xx.FontButton
+        android:id="@+id/time_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="저장"
+        androidhuman:typeface="fonts/JejuGothic.ttf" />
+
+</LinearLayout>
